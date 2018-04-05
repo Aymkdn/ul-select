@@ -1,5 +1,5 @@
 # ul-select
-Make an unordered list behave like a select element
+Make an unordered list behave like a select element.
 
 Original idea from [https://github.com/zgreen/ul-select](https://github.com/zgreen/ul-select), with some changes to enable multiple *ul-select* in the page and trigger a callback when selected.
 
