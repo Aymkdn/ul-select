@@ -1,1 +1,31 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+<title>Example</title>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script type="text/javascript" src="https://aymkdn.github.io/ul-select/ul-select.js"></script>
+<link rel="stylesheet" type="text/css" href="https://aymkdn.github.io/ul-select/ul-select.css">
+<style>
+.zg-ul-select:not(.active)::after {
+  background-image: url('https://aymkdn.github.io/ul-select/chevron.svg');
+}
+</style>
+</head>
+<body>
+<ul id="my-list">
+  <li>Option 1</li>
+  <li>Option 2</li>
+  <li>Option 3</li>
+</ul>
+
+<button type="button" id="toggle-list">Click to toggle list in select</button>
+<script>
+  $('#toggle-list').on('click', function() {
+    $(this).remove();
+    $('#my-list').ulSelect(function(elem) {
+      alert("Option selected: "+$(elem).text())
+    })
+  })
+</script>
+</body>
+</html>
