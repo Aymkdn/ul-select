@@ -10,6 +10,7 @@ Original idea from [https://github.com/zgreen/ul-select](https://github.com/zgre
       - [ul-select.js](https://github.com/Aymkdn/ul-select/blob/master/ul-select.js)
       - [ul-select.css](https://github.com/Aymkdn/ul-select/blob/master/ul-select.css)
       - [chevron.svg](https://github.com/Aymkdn/ul-select/blob/master/chevron.svg)  
+
 2. Apply `ulSelect()` on the element you want to convert from `ul` to a `select-like`:   
 ```javascript
 $('#my-list').ulSelect(function(selectedLI) {
@@ -17,6 +18,8 @@ $('#my-list').ulSelect(function(selectedLI) {
 })
 ```
 
+3. Make sure the URL to `chevron.svg` is correct in `ul-select.css`
+
 ## Example
 
-See https://aymkdn.github.io/ul-select/ for examples
+See [https://aymkdn.github.io/ul-select/example.html](https://aymkdn.github.io/ul-select/example.html) for an example.
