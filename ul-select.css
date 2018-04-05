@@ -40,14 +40,14 @@ ul.zg-ul-select.active li {
   display: block;
 }
 ul.zg-ul-select.active li:hover {
-  background: #0074d9;
+  background-color: #0074d9;
   color:#FFF;
 }
 ul.zg-ul-select.active li.active {
-  background: #40a6ff;
+  background-color: #c4e0f9;
 }
 ul.zg-ul-select.active li.active:hover {
-  background: #0074d9;
+  background-color: #0074d9;
   color:#FFF;
 }
 
