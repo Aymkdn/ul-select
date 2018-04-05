@@ -7,9 +7,9 @@ Original idea from [https://github.com/zgreen/ul-select](https://github.com/zgre
 
 1. You need:
       - [jQuery](https://jquery.com)
-      - [ul-select.js](https://github.com/Aymkdn/ul-select/edit/master/ul-select.js)
-      - [ul-select.css](https://github.com/Aymkdn/ul-select/edit/master/ul-select.css)
-      - [chevron.svg](https://github.com/Aymkdn/ul-select/edit/master/chevron.svg)  
+      - [ul-select.js](https://github.com/Aymkdn/ul-select/blob/master/ul-select.js)
+      - [ul-select.css](https://github.com/Aymkdn/ul-select/blob/master/ul-select.css)
+      - [chevron.svg](https://github.com/Aymkdn/ul-select/blob/master/chevron.svg)  
 2. Apply `ulSelect()` on the element you want to convert from `ul` to a `select-like`:   
 ```javascript
 $('#my-list').ulSelect(function(selectedLI) {
